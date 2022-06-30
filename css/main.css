@@ -11,6 +11,7 @@ body {
   background: linear-gradient(45deg, black, rgb(1, 1, 88), black, red);
   background-size: 300% 300%;
   animation: colors 10s ease-in-out infinite;
+  font-family: sans-serif;
 }
 @keyframes colors {
   0% {
@@ -36,6 +37,9 @@ body {
   border-radius: 10%;
   flex-direction: column;
 }
+#titulo {
+  margin-bottom: 5rem;
+}
 .Login_x {
   box-sizing: border-box;
   height: 3rem;
@@ -47,11 +51,29 @@ body {
 #Enviar_ {
   width: 15rem;
   height: 3rem;
+  font-size: 20px;
   border: unset;
   outline: none;
+  color: white;
   font-weight: bold;
   background: linear-gradient(45deg, black, blue, black, red);
   background-size: 200% 200%;
+  margin-top: 5rem;
   text-align: center;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+  animation: colors 10s ease-in-out infinite;
+}
+.Login_borda span {
+  background-color: red;
+}
+.Login_x:hover {
+  cursor: pointer;
+}
+.Login_x:focus {
+  border-bottom: solid 5px rgb(0, 17, 255);
+  transition: 0.2s ease-in-out;
+}
+#teste123 :hover {
+  color: rgb(255, 0, 0);
 }
