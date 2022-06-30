@@ -47,6 +47,7 @@ body {
   outline: none;
   border: unset;
   line-height: 150%;
+  font-size: 15px;
 }
 #Enviar_ {
   width: 15rem;
