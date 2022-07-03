@@ -3,7 +3,7 @@ function Logar() {
   const senha = document.getElementById('senha_1').value
   if (login == 'matheus' && senha == 'aragao') {
     window.alert('Login efetuado com sucesso')
-    location.href = './index.html'
+    location.href = './home.html'
   } else {
     window.alert('error')
   }

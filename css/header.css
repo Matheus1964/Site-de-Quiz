@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
 }
 body {
-  background: linear-gradient(45deg, black, blue);
+  background: linear-gradient(to bottom, rgb(24, 24, 24), rgb(0, 0, 252));
   background-size: 300% 300%;
 }
 header {
@@ -15,11 +18,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  
 }
 #menu li {
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin: 0 20px;
-  display: inline;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 100px;
 }
 #menu ul {
   font-size: 25px;
