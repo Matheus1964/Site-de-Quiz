@@ -75,6 +75,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.imagemDaQuestao img{
+  width: 320px;
+  height: 320px;
 }
 
 /* article que acomoda a questao completa */
