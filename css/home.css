@@ -1,0 +1,20 @@
+.containerr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+.carousel {
+  width: 708px;
+  height: 591px;
+}
+.containerr img{
+  max-width: 100%;
+  width: 708px;
+  height: 591px;
+}
+.quiz img{
+  
+  max-width: 100%;
+}

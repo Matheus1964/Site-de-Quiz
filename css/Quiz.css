@@ -46,6 +46,7 @@ h1 {
 /* classe para centralizar textos, paragrafos */
 .centro {
   text-align: center;
+  height: 100%;
 }
 
 /* div class questao com numero da questao e pergunta */

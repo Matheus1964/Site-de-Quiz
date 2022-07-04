@@ -50,8 +50,8 @@ a {
   font-size: 1.25rem;
 }
 footer {
-  flex-shrink: 0;
-  bottom: 0;
+  position: absolute;
+  margin-top: 500px;
   background-color: black;
   height: auto;
   width: 100%;
