@@ -1,0 +1,21 @@
+
+table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(0, 4, 255);
+  
+}
+td{
+  color: white;
+  border: solid 5px red;
+
+}
+.logica_{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: red;
+  margin-top: 100px;
+}

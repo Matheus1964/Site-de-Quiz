@@ -77,8 +77,8 @@ const q5 = {
   imagem: 'html.png', // ADICIONE
   pergunta: 'Qual tag que defini um parágrafo em HTML?',
   alternativaA: '<text></text>',
-  alternativaB: '<p></p>',
-  alternativaC: '<h1></h1>',
+  alternativaB: '<h1></h1>',
+  alternativaC: '<p></p>',
   alternativaD: '<div></div>',
   correta: '<p></p>'
 }
@@ -87,17 +87,17 @@ const q6 = {
   imagem: 'html.png', // ADICIONE
   pergunta: 'Qual tag que coloca uma foto no Website?',
   alternativaA: '<photo>',
-  alternativaB: '<img>',
+  alternativaB: '<video>',
   alternativaC: '<foto>',
-  alternativaD: '<video>',
+  alternativaD: '<img>',
   correta: '<img>'
 }
 const q7 = {
   numQuestao: 7,
   imagem: 'html.png', // ADICIONE
   pergunta: 'Porque colocamos "/" nas tags?',
-  alternativaA: 'Para começar a tag.',
-  alternativaB: 'Para fechar a tag.',
+  alternativaA: 'Para fechar a tag.',
+  alternativaB: 'Para começar a tag.',
   alternativaC: 'Para mudar o nome.',
   alternativaD: 'Nenhuma das alternativas.',
   correta: 'Para fechar a tag.'
@@ -148,7 +148,7 @@ total.textContent = totalDeQuestoes
 
 // MONTAR A 1a QUESTAO COMPLETA, para iniciar o Quiz
 numQuestao.textContent = q1.numQuestao
-imgQuestao.setAttribute('src', 'assets/Quiz html/' + q1.imagem) // ADICIONE
+imgQuestao.setAttribute('src', '../assets/Quiz html/' + q1.imagem) // ADICIONE
 pergunta.textContent = q1.pergunta
 a.textContent = q1.alternativaA
 b.textContent = q1.alternativaB
@@ -167,7 +167,7 @@ function proximaQuestao(nQuestao) {
   numQuestao.textContent = questoes[nQuestao].numQuestao
   imgQuestao.setAttribute(
     'src',
-    'assets/Quiz html/' + questoes[nQuestao].imagem
+    '../assets/Quiz html/' + questoes[nQuestao].imagem
   ) // ADICIONE
   pergunta.textContent = questoes[nQuestao].pergunta
   a.textContent = questoes[nQuestao].alternativaA

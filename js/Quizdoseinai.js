@@ -34,104 +34,104 @@ const q0 = {
 }
 const q1 = {
   numQuestao: 1,
-  imagem: 'black clover.png', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Black lagoon',
-  alternativaB: 'Dr stone',
-  alternativaC: 'Angel of death',
-  alternativaD: 'Black clover',
-  correta: 'Black clover'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'Plano que determina o número de amostras a serem retiradas de uma batelada, lote ou população, com o objetivo de se obter informações sobre a qualidade e possibilitar uma tomada de decisão.',
+  alternativaA: 'Planos de amostragem',
+  alternativaB: 'Brainstoming',
+  alternativaC: 'Conjunto de formula',
+  alternativaD: 'Nenhuma das questões',
+  correta: 'Planos de amostragem'
 }
 const q2 = {
   numQuestao: 2,
-  imagem: 'bleach.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Dragon ball',
-  alternativaB: 'Bleach',
-  alternativaC: 'Demon Slayer',
-  alternativaD: 'Fullmetal alchemist',
-  correta: 'Bleach'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'Entende-se por Limite de Tolerância, para os fins desta Norma, a concentração ou intensidade máxima ou mínima, relacionada com a natureza e o tempo de exposição ao agente, que não causará dano à saúde do trabalhador, durante a sua vida laboral.',
+  alternativaA: 'PDCA',
+  alternativaB: 'Nenhuma das questões',
+  alternativaC: 'Parâmentros de tolerância',
+  alternativaD: 'Brainstoming',
+  correta: 'Parâmentros de tolerância'
 }
 const q3 = {
   numQuestao: 3,
-  imagem: 'darwins game.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Darwins game',
-  alternativaB: 'Death note',
-  alternativaC: 'God eater',
-  alternativaD: 'Another',
-  correta: 'Darwins game'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'É um conjunto de unidades do produto, do qual a amostra é retirada e inspecionada para determinar o cumprimento com o critério de aceitação',
+  alternativaA: 'Planos de amostragem',
+  alternativaB: 'PDCA',
+  alternativaC: 'Histograma',
+  alternativaD: 'Lotes de inspeção',
+  correta: 'Lotes de inspeção'
 }
 const q4 = {
   numQuestao: 4,
-  imagem: 'fairy tail.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Hunter x Hunter',
-  alternativaB: 'One piece',
-  alternativaC: 'Fairy tail',
-  alternativaD: 'Edens zero',
-  correta: 'Fairy tail'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'É conjunto de ensaios realizados, geralmente por laboratórios de análises químicas, em amostras de materiais e produtos e que tem como principal objetivo a verificação das suas propriedades e características físicas e químicas.',
+  alternativaA: 'Ensaio físicos-químico',
+  alternativaB: 'Fluxograma',
+  alternativaC: 'Brainstoming',
+  alternativaD: 'Conjunto de formula',
+  correta: 'Ensaio físicos-químico'
 }
 const q5 = {
   numQuestao: 5,
-  imagem: 'jujutsu kaisen.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Boku no hero',
-  alternativaB: 'Jujutsu kaisen',
-  alternativaC: 'Angel beats',
-  alternativaD: 'Naruto',
-  correta: 'Jujutsu kaisen'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'São documentos criados para estabelecer um conjunto de regras sobre um determinado assunto ou atividade.',
+  alternativaA: 'Diagrama de disperção',
+  alternativaB: 'Fluxograma',
+  alternativaC: 'Normas técnicas',
+  alternativaD: 'Nenhuma das questões',
+  correta: 'Normas técnicas'
 }
 const q6 = {
   numQuestao: 6,
-  imagem: 'Highschool dxd.png', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'kiss x sis',
-  alternativaB: 'shinmai maou no testament',
-  alternativaC: 'highschool of the dead',
-  alternativaD: 'Highschool dxd',
-  correta: 'Highschool dxd'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'É o que estuda o significado das palavras. O significado pode ser diferente dependendo do interlocutor.',
+  alternativaA: 'Semântico',
+  alternativaB: 'Sintaxe',
+  alternativaC: 'paralelismo',
+  alternativaD: 'Percepção',
+  correta: 'Semântico'
 }
 const q7 = {
   numQuestao: 7,
-  imagem: 'kakegurui.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Naruto',
-  alternativaB: 'Kakegurui',
-  alternativaC: 'Yugi-oh',
-  alternativaD: 'One Piece',
-  correta: 'Kakegurui'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'Como é chamada a atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo?',
+  alternativaA: 'Parâmentros de tolerância',
+  alternativaB: 'PDCA',
+  alternativaC: 'Brainstorming',
+  alternativaD: 'Normas técnicas',
+  correta: 'Brainstorming'
 }
 const q8 = {
   numQuestao: 8,
-  imagem: 'nanatsu no taizai.jpg', // ADICIONE
+  imagem: 'sennai.png', // ADICIONE
   pergunta:
-    'Qual anime?',
-  alternativaA: 'The promissed neverland',
-  alternativaB: 'Sword Art Online',
-  alternativaC: 'Shingeki no Kyogin',
-  alternativaD: 'Nanatsu no taizai',
-  correta: 'Nanatsu no taizai'
+    'É um tipo de diagrama, que também pode ser entendido como uma representação esquemática de um processo ou algoritmo, muitas vezes feito através de gráficos que ilustram de forma descomplicada',
+  alternativaA: 'Fluxograma',
+  alternativaB: 'Semântico',
+  alternativaC: 'Diagrama de disperção',
+  alternativaD: 'Histograma',
+  correta: 'Fluxograma'
 }
 const q9 = {
   numQuestao: 9,
-  imagem: 'yowamushi pedal.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'Kuroko no basket',
-  alternativaB: 'Tokyo revenges',
-  alternativaC: 'Haikyuu',
-  alternativaD: 'Yowamushi pedal',
-  correta: 'Yowamushi pedal'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'É um método iterativo de gestão de quatro passos, utilizado para o controle e melhoria contínua de processos e produtos.',
+  alternativaA: 'PDCA',
+  alternativaB: 'Semântico',
+  alternativaC: 'Percepção',
+  alternativaD: 'Normas técnicas',
+  correta: 'PDCA'
 }
 const q10 = {
   numQuestao: 10,
-  imagem: 'ponyo.jpg', // ADICIONE
-  pergunta: 'Qual anime?',
-  alternativaA: 'O castelo animado',
-  alternativaB: 'Ponyo',
-  alternativaC: 'Meu amigo totoro',
-  alternativaD: 'A viagem de Chihiro',
-  correta: 'Ponyo'
+  imagem: 'sennai.png', // ADICIONE
+  pergunta: 'O que significa MASP?',
+  alternativaA: 'Metodologia de análise sem perspectiva',
+  alternativaB: 'Metodologia de análise de problemas e solução',
+  alternativaC: 'Metodologia de análise e solução de problemas',
+  alternativaD: 'Metodologia de análise sem paradigma',
+  correta: 'Metodologia de análise e solução de problemas'
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
@@ -148,7 +148,7 @@ total.textContent = totalDeQuestoes
 
 // MONTAR A 1a QUESTAO COMPLETA, para iniciar o Quiz
 numQuestao.textContent = q1.numQuestao
-imgQuestao.setAttribute('src', '../assets/Quizanime/' + q1.imagem) // ADICIONE
+imgQuestao.setAttribute('src', '../assets/Quizdosenai/' + q1.imagem) // ADICIONE
 pergunta.textContent = q1.pergunta
 a.textContent = q1.alternativaA
 b.textContent = q1.alternativaB
@@ -167,7 +167,7 @@ function proximaQuestao(nQuestao) {
   numQuestao.textContent = questoes[nQuestao].numQuestao
   imgQuestao.setAttribute(
     'src',
-    '../assets/Quizanime/' + questoes[nQuestao].imagem
+    'assets/../Quizdosenai/' + questoes[nQuestao].imagem
   ) // ADICIONE
   pergunta.textContent = questoes[nQuestao].pergunta
   a.textContent = questoes[nQuestao].alternativaA

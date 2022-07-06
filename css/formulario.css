@@ -1,0 +1,56 @@
+.row{
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: 30rem;
+  height: 30rem;
+  justify-content: center;
+  display: flex;
+  border-radius: 1%;
+  box-shadow: 10px 10px 10px 20px black;
+  max-width: 100%;
+
+}
+.card{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+
+}
+input:focus, textarea:focus{
+  border-color: rgb(204, 204, 14) !important;
+  
+}
+input:invalid, textarea:invalid{
+  border-color: red;
+}
+input:valid, textarea:valid{
+  border-color: green;
+}
+input{
+  width: 500px;
+  max-width: 100%;
+}
+textarea{
+  height: 100px;
+}
+
+button{
+  
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  border: unset;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(45deg, black, blue, black, red);
+  background-size: 200% 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
