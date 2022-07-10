@@ -37,14 +37,16 @@ img{
 
 .Container-top5 a{
   text-decoration: none;
+  color: white;
 }
 .Container-top5{
 display: flex;
 justify-content: center;
 flex-direction: row;
-margin-top: 10px;
-padding: 0px 0px;
+padding: 10px 130px;
+margin-top: 100px;
 flex-wrap: wrap;
+gap: 100px;
 list-style: none;
 }
 .Quiztop{
