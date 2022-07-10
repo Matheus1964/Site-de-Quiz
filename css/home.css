@@ -20,7 +20,10 @@
   width: 708px;
   height: 591px;
 }
-
+.carousel a{
+  text-decoration: none;
+  color: white;
+}
 .carousel{
   max-width: 100%;
 }
